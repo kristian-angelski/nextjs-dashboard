@@ -17,7 +17,6 @@ export default async function DashboardPage() {
     numberOfInvoices,
     numberOfCustomers,
   } = await fetchCardData();
-  console.log("latestInvoices", latestInvoices);
 
   return (
     <main>
